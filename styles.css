@@ -1,0 +1,223 @@
+.hero{
+    background-color: #FFCDB2;
+    position: relative;
+}
+.sun{
+    width: 300px;
+    margin-left: 70%;
+    margin-bottom: 0px;
+    position: absolute;
+}
+.name {
+    
+    text-align: center;
+    font-family: "Sacramento", serif;
+    font-weight: 800;
+    font-style: cursive;
+    font-size: 5rem;
+    color: #B5828C;
+    word-spacing: 25px;
+    margin-left: auto;
+    margin-left: auto;
+    padding-top: 150px; 
+}
+.about{
+    
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    text-align: center;
+    color: #B5828C;
+    font-size: 1.6rem;
+    padding-bottom: 20px;
+
+}
+.student{
+    text-decoration: underline;
+}
+.tree{
+   
+    width: 350px;
+    margin-left: 00px;
+    margin-top: -150px;
+    background-color: #FFCDB2;
+}
+.pfp{
+    display: block;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.gradient{
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(#FFCDB2 , #FFB4A2);
+}
+.body{
+    display: flex;
+    margin-top: 0px;
+    background-color: #FFB4A2;
+    flex-direction: column;
+}
+.picdes{
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    color:#664841 ;
+}
+.me{
+    text-align: center;
+    font-size: 1.2rem;
+    color:#664841 ;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.games:link , .movies:link , .writing:link , .music:link{
+    color: #664841;
+    text-decoration: none;
+}
+.games:hover , .movies:hover , .writing:hover , .music:hover {
+    color: #FFB4A2;
+    background-color: #664841;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    padding: 5px;
+}
+.gradient2{
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(#ffb4a2 , #E5989B 80%);
+}
+    
+
+hr{
+    
+    margin: 70px auto 90px auto;
+    width: 10%;
+    border: dotted #664841 10px;
+    border-bottom: none;
+   
+   
+       
+}
+.hobbies{
+    position: relative;
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    color:#664841 ;
+    text-align: center;
+}
+ul{
+    
+    position: absolute;
+    list-style: none;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+li{
+    padding: 10px;
+}
+
+.games:visited , .movies:visited , .writing:visited , .music:visited{
+    color: #A94A4A;
+    text-decoration: none;
+}
+.contactme{
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    text-align: center;
+}
+.socials{
+    background-color: #E5989B;
+    padding: 50px;
+}
+.socials-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 150px;
+    
+   
+}
+.socials-container a svg{
+    height: 32px;
+    }
+.socials-container a{
+    background-color: white;
+    padding: 1em;
+    border-radius: 50%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.socials-container a::before{
+ content: attr(data-social);
+ position: absolute;
+ background-color: var(--accent-color);
+ color: white;
+ padding: 0.5em 1em;
+ border-radius: 100px;
+ text-decoration: none;
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+ transform: translateY(-30px) rotate(25deg);
+ opacity: 0;
+ transition: 200ms cubic-bezier(.23,-0.19,.42,1.84);;
+}
+.socials-container a:hover{
+    background-color: var(--accent-color);
+    fill: white;
+}
+.socials-container a::after{
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid var(--accent-color);
+    transform: translateY(0) rotate(25deg);
+    opacity: 0;
+    transition: 200ms cubic-bezier(.23,-0.19,.42,1.84);;
+
+}
+.socials-container a:hover::before{
+    transform: translateY(-65px) rotate(0);
+    opacity: 1;
+}
+.socials-container a:hover::after{
+    transform: translateY(-42px) rotate(0);
+    opacity: 1;
+}
+.phone , .mail {
+    text-decoration: none;
+    color: black;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+   
+}
+.fa-solid{
+    margin-right: 10px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #A94A4A;
+}
