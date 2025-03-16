@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .hero{
     background-color: #FFCDB2;
     position: relative;
@@ -79,6 +82,7 @@
     color:#664841 ;
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 60px;
 }
 .games:link , .movies:link , .writing:link , .music:link{
     color: #664841;
@@ -101,10 +105,11 @@
 
 hr{
     
-    margin: 70px auto 90px auto;
+    align-self: center;
     width: 10%;
     border: dotted #664841 10px;
     border-bottom: none;
+   
    
    
        
@@ -118,15 +123,19 @@ hr{
     color:#664841 ;
     text-align: center;
 }
+.hobby{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
 ul{
-    
-    position: absolute;
+    position: relative;
     list-style: none;
     text-align: center;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 25px;
     padding-left: 0px;
 }
 li{
@@ -145,14 +154,20 @@ li{
     text-align: center;
 }
 .socials{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     background-color: #E5989B;
     padding: 50px;
 }
 .socials-container{
     display: flex;
+    flex-direction: row;
     gap: 20px;
     justify-content: center;
     margin-top: 150px;
+    flex: 1;
+   
     
    
 }
@@ -162,8 +177,9 @@ li{
 .socials-container a{
     background-color: white;
     padding: 1em;
-    border-radius: 50%;
+    border-radius: 100px;
     box-sizing: border-box;
+    border: 2px white solid;
     flex-shrink: 0;
     display: grid;
     place-items: center;
@@ -207,6 +223,8 @@ li{
     transform: translateY(-42px) rotate(0);
     opacity: 1;
 }
+
+
 .phone , .mail {
     text-decoration: none;
     color: black;
@@ -220,4 +238,30 @@ li{
     font-size: 1.3rem;
     text-decoration: none;
     color: #A94A4A;
+}
+
+
+
+.academics{
+    background-color: #FFB4A2;
+}
+
+
+
+
+.resume:link , .portfolio:link{
+   
+    
+    text-decoration: none;
+    color: #664841;
+}
+.acad{
+    text-align: center;
+    position: relative;
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    color:#664841 ;
+    margin-top: 30px;
 }
