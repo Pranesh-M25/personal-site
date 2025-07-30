@@ -63,7 +63,7 @@ body{
 }
 .body{
     display: flex;
-    margin-top: 0px;
+    margin-top: -10px;
     background-color: #FFB4A2;
     flex-direction: column;
 }
